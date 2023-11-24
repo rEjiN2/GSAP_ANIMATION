@@ -1,7 +1,7 @@
-import Content from '@/components/Content/Content'
+import Content from '@/components/Content/Content.jsx'
 import React from 'react'
 import styles from './page.module.css'
-import Images from '@/components/Images/Images'
+import Images from '@/components/Images/Images.jsx'
 
 const Main = () => {
 

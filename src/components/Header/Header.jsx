@@ -22,7 +22,7 @@ timeline.from([menu_item1,menu_item2,menu_item3],2,{
   opacity:0,
   y:'-200',
   stagger:{
-    amount:.4
+    amount :.4 
   },
   ease:ease
 })
