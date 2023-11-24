@@ -1,0 +1,89 @@
+.content{
+display: flex;
+align-items: left;
+justify-content: center;
+width: 30vw;
+margin-left: 200px;
+margin-right: 50px;
+flex-direction: column;
+}
+
+
+.contentinnerbold{
+font-weight: 700;
+font-size: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
+}
+
+
+.h1div{
+    overflow: hidden;
+    margin-top: -70px;
+}
+
+.pdiv{
+    font-size: 15px;
+    width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    color: #f0f0f0;
+    margin-top:30px;
+}
+
+/* .contentButton{
+    width: 150px;
+    margin-top: 30px;
+    padding: 15px 15px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+    border:none;
+    background-color: #0c0c0c;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+} */
+
+.contentButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 200px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+  
+  .buttonsvg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  .buttonspan {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  .contentButton:hover .buttonsvg{
+    transform: translateX(5px) rotate(90deg);
+  }
+  
+  .contentButton:hover  .buttonspan{
+    transform: translateX(7px);
+  }
+
+
+
+

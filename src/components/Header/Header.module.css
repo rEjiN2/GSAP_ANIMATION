@@ -1,0 +1,37 @@
+.header{
+    position: relative;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width:100%;
+}
+
+
+.logo{
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family:sans-serif;
+    color: #f0f0f0;
+}
+
+
+.menu{
+    display: flex;
+    margin-right: 40px;
+    color: #f0f0f0;
+    gap: 1rem;
+}
+
+
+
+
+.menuItems{
+
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+}
