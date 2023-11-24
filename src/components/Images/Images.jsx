@@ -3,7 +3,7 @@
 
 import React,{useRef,useEffect} from 'react'
 import styles from './images.module.css'
-import { gsap,Power3 } from 'gsap'
+import { gsap,Power3 } from 'gsap/gsap-core'
 const Images = () => {
   let timeline = new gsap.timeline();
   let ease = Power3.easeOut();

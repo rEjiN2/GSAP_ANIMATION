@@ -1,7 +1,7 @@
 "use client"
 import React,{useRef,useState,useEffect} from 'react'
 import styles from './Header.module.css'
-import { gsap,Power3 } from 'gsap'
+import { gsap,Power3 } from 'gsap/gsap-core'
 const Header = () => {
   let timeline = new gsap.timeline();
   let ease = Power3.easeOut();

@@ -1,7 +1,7 @@
 "use client"
 import React,{useRef,useEffect} from 'react'
 import styles from './Content.module.css'
-import { gsap,Power3 } from 'gsap'
+import { gsap,Power3 } from 'gsap/gsap-core'
 const Content = () => {
  
   let timeline = new gsap.timeline();
